@@ -124,13 +124,7 @@ Exercise 10: Check for an element
 
 Complete Exercise 10 in the space below:
 */
-
-function hasSoup(){
-    if (foods.includes('soup')){
-        return true
-    } else {
-        return
-    }
-}
+//foods.push('soup')
+const hasSoup = foods.includes('soup')
 
 console.log('Exercise 10 result:', hasSoup);
