@@ -144,7 +144,7 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 const odds = []
 
 for(let idx = 0; idx < nums.length; idx++){
-    if( nums[(idx)] % 2 != 0 ){
+    if( nums[idx] % 2 != 0 ){
         odds.push(nums[idx])
     }
 }
