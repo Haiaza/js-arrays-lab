@@ -168,12 +168,16 @@ Exercise 12: FizzBuzz with arrays
 
 Complete Exercise 12 in the space below:
 */
-
-for (const fizz of nums){
-    if( i % 3 === 0 ){
-        fizz.push(i)
-    }
-}
+// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+for (let num of nums) {
+   if (i % 3 === 0) {
+       fizz = num.push()
+   } else if (i % 5 === 0){
+       buzz = num.push()
+   } else if (i % 5 === 0 %% i % 3 === 0){
+       fizzbuzz = num.push()
+   }
+ }
 
 
 
