@@ -174,12 +174,12 @@ const buzz = [];
 const fizzbuzz = [];
 
 for (let num of nums) {
-  if (num % 3 === 0) {
-    fizz.push(num);
+  if (num % 5 === 0 && num % 3 === 0) {
+    fizzbuzz.push(num);
   } else if (num % 5 === 0) {
     buzz.push(num);
-  } else if (num % 5 === 0 && num % 3 === 0) {
-    fizzbuzz.push(num);
+  } else if (num % 3 === 0) {
+    fizz.push(num);
   }
 }
 
