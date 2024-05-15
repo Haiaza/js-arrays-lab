@@ -251,7 +251,7 @@ const total = 0;
 
 numArrays.forEach(arrayRows => {
   arrayRows.forEach(n => {
-    total + n;
+    total += n;
   })
 });
   
