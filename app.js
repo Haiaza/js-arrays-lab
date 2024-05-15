@@ -247,14 +247,12 @@ Complete Exercise 15 in the space below:
   [7, 81, 90],
 ]; */
 
-const total = 0;
+let total = 0;
 
-numArrays.forEach(arrayRows => {
-  arrayRows.forEach(n => {
+numArrays.forEach((arrayRows) => {
+  arrayRows.forEach((n) => {
     total += n;
-  })
+  });
 });
-  
-
 
 console.log("Exercise 15 result:\n", total);
