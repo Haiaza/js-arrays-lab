@@ -123,6 +123,8 @@ Complete Exercise 9 in the space below:
 
 let allFoods = foods.join(" -> ");
 
+// its important to remember to include manual spaces, whitespace will not be included by default.
+
 console.log("Exercise 9 result:", allFoods);
 /*
 Exercise 10: Check for an element
