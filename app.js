@@ -250,9 +250,9 @@ Complete Exercise 15 in the space below:
 const total = 0;
 
 numArrays.forEach(arrayRows => {
-  arrayRows.forEach(n =>) {
+  arrayRows.forEach(n => {
     total + n;
-  }
+  })
 });
   
 
