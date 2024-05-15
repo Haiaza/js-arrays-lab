@@ -139,6 +139,8 @@ Complete Exercise 10 in the space below:
 //foods.push('soup')
 const hasSoup = foods.includes("soup");
 
+// finder() just looks for exactly what you submit. the value will be boolean.
+
 console.log("Exercise 10 result:", hasSoup);
 /*
 Exercise 11: Odd numbers from an array
@@ -195,7 +197,7 @@ for (let num of nums) {
   }
 }
 
-// the fizzbuzz array is empty??
+// maybe it makes the most sense to always make the first if/else as the statement with special operators (and , or)
 
 console.log("Exercise 12 Results:");
 console.log("  fizz:", fizz);
@@ -214,13 +216,15 @@ Complete Exercise 13 in the space below:
 */
 
 const numArrays = [
-  [100, 5, 23],
-  [15, 21, 72, 9],
-  [45, 66],
-  [7, 81, 90],
-];
+  [100, 5, 23], //0
+  [15, 21, 72, 9], //1
+  [45, 66], //2
+  [7, 81, 90], //3
+]; // 0 1 2 3
 
 const numList = [];
+
+//the last index is always the total minus 1
 
 numList.push(numArrays[numArrays.length - 1]);
 
@@ -253,17 +257,21 @@ Complete Exercise 15 in the space below:
 */
 
 /**const numArrays = [
-  [100, 5, 23],
-  [15, 21, 72, 9],
-  [45, 66],
-  [7, 81, 90],
+  [100, 5, 23], // arrayRows[0]
+  [15, 21, 72, 9], // arrayRows[1]
+  [45, 66], // arrayRows[2]
+  [7, 81, 90], // arrayRows[3]
+  // n, n ,n, n
 ]; */
 
 let total = 0;
 
 numArrays.forEach((arrayRows) => {
+  // see above... for each row 0 -> 3
   arrayRows.forEach((n) => {
+    //see above ... for each item inside of arrayRows[n]
     total += n;
+    // add n to the current total
   });
 });
 
