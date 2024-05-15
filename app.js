@@ -249,8 +249,12 @@ Complete Exercise 15 in the space below:
 
 const total = 0;
 
-total.forEach(arrayRow){
+total.forEach(arrayRows => {
+  numArrays.forEach(n) => {
+    total + n;
+  }
+});
   
-}
+
 
 console.log("Exercise 15 result:\n", total);
