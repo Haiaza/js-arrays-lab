@@ -46,6 +46,8 @@ Complete Exercise 4 in the space below:
 
 let favFood = foods[1];
 
+// the square brackets are used to specify which value we need to use / access
+
 console.log("Exercise 4 result:", favFood);
 /*
 Exercise 5: Insert an element between two others
@@ -57,6 +59,8 @@ Complete Exercise 5 in the space below:
 
 foods.splice(2, 0, "tofu");
 
+// splice notation === (desired index, delete the current placeholder? 0 false 1 true, the thing being inserted)
+
 console.log("Exercise 5 result:", foods);
 /*
 Exercise 6: Replace elements
@@ -67,6 +71,8 @@ Complete Exercise 6 in the space below:
 */
 
 foods.splice(1, 1, "sushi", "cupcake");
+
+// (desired index, delete the current placeholder? 0 false 1 true, the thing(s) being inserted)
 
 console.log("Exercise 6 result:", foods);
 /*
@@ -82,6 +88,8 @@ Complete Exercise 7 in the space below:
 
 const yummy = foods.slice(1, 3);
 
+// slice notation === (start index for array being created, the cutoff-index* where everything before it* will be included into the new array)
+
 console.log("Exercise 7 result:", yummy);
 /*
 Exercise 8: Finding an index
@@ -95,6 +103,8 @@ Complete Exercise 8 in the space below:
 */
 // console.log(foods) // reminder for the array
 let soyIdx = foods.indexOf("tofu");
+
+// indexOf is essentially a finder for the value presented. just give the finder its lead first i.e foods.indexOf
 
 console.log("Exercise 8 result:", soyIdx);
 /*
